@@ -49,6 +49,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "luci-app-upnp" "VIKINGYFY/packages" "main" "pkg"
+UPDATE_PACKAGE "miniupnpd" "VIKINGYFY/packages" "main" "pkg"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
